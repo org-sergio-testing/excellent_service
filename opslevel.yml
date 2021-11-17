@@ -1,0 +1,11 @@
+---
+version: 1
+service:
+  name: excellent_service
+  
+  tags:
+    - key: boolean_test
+      value: true
+    - key: string_test
+      value: "I'm not your string buddy"
+      
