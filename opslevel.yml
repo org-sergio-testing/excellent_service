@@ -1,7 +1,7 @@
 ---
 version: 1
 service:
-  name: Excellent Service
+  name: Excellent Service from GitHub
   
   tags:
     - key: boolean_test
