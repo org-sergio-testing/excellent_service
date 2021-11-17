@@ -8,4 +8,6 @@ service:
       value: true
     - key: string_test
       value: "I'm not your string buddy"
+    - key: list_test
+      value: [true, false, null, "a string", 0, 42]
       
