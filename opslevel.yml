@@ -1,7 +1,7 @@
 ---
 version: 1
 service:
-  name: excellent_service
+  name: Excellent Service
   
   tags:
     - key: boolean_test
