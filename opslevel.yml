@@ -2,12 +2,26 @@
 version: 1
 service:
   name: Excellent Service from GitHub
-  
+  lifecycle:
+  tier:
+  product:
+  owner:
+  language:
+  framework:
+  description:
+  aliases:
   tags:
-    - key: boolean_test
-      value: true
-    - key: string_test
-      value: "I'm not your string buddy"
-    - key: list_test
-      value: [true, false, null, "a string", 0, 42]
-      
+  - key: boolean_test
+    value: 'true'
+  - key: string_test
+    value: I'm not your string buddy
+  - key: list_test
+    value: '[true, false, nil, "a string", 0, 42]'
+  repositories:
+  - name: org-sergio-testing/excellent_service
+    path: "/"
+    provider: github
+  tools:
+  dependencies:
+  - alias: special_characters_service
+  - alias: service-in-repo-in-org-1
