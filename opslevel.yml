@@ -21,6 +21,10 @@ service:
   - key: another_tag
     value: another value
   tools:
+  - name: Simple Code
+    category: code
+    url: https://example.com
+    environment:
   - name: CI/CD
     category: continuous_integration
     url: https://example.com
