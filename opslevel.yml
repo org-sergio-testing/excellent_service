@@ -1,7 +1,7 @@
 ---
 version: 1
 service:
-  name: Excellent Service from GitHub
+  name: Excellent Service from GitHub v2
   lifecycle:
   tier:
   product:
@@ -17,6 +17,8 @@ service:
     value: I'm not your string buddy
   - key: list_test
     value: '[true, false, nil, "a string", 0, 42]'
+  - key: another_tag
+    value: another value
   tools:
   - name: CI/CV
     category: continuous_integration
