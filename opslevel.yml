@@ -1,7 +1,7 @@
 ---
 version: 1
 service:
-  name: Excellent Service from GitHub v2
+  name: Excellent Service from GitHub v3
   lifecycle:
   tier:
   product:
@@ -21,7 +21,7 @@ service:
   - key: another_tag
     value: another value
   tools:
-  - name: CI/CV
+  - name: CI/CD
     category: continuous_integration
     url: https://example.com
     environment:
