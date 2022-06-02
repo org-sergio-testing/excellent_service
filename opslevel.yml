@@ -25,7 +25,7 @@ service:
     category: continuous_integration
     url: https://example.com
     environment:
-  - name: ALARMS
+  - name: noisemaker
     category: incidents
     url: https://example.com
     environment:
