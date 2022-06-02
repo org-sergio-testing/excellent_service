@@ -10,6 +10,7 @@ service:
   framework:
   description:
   aliases:
+  - excellent_service
   tags:
   - key: boolean_test
     value: 'true'
