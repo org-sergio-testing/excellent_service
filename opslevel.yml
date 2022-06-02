@@ -17,6 +17,15 @@ service:
     value: I'm not your string buddy
   - key: list_test
     value: '[true, false, nil, "a string", 0, 42]'
+  tools:
+  - name: CI/CV
+    category: continuous_integration
+    url: https://example.com
+    environment:
+  - name: ALARMS
+    category: incidents
+    url: https://example.com
+    environment:
   repositories:
   - name: org-sergio-testing/excellent_service
     path: "/"
