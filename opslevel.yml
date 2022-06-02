@@ -8,7 +8,7 @@ service:
   owner:
   language:
   framework:
-  description:
+  description: "It's from GitHub. Being excellent is unrelated"
   aliases:
   - excellent_service
   tags:
