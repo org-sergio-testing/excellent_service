@@ -1,7 +1,7 @@
 ---
 version: 1
 service:
-  name: Excellent Service from GitHub v3
+  name: Excellent Service from GitHub v4
   lifecycle:
   tier:
   product:
@@ -21,7 +21,7 @@ service:
   - key: another_tag
     value: another value
   tools:
-  - name: Simple Code
+  - name: Another Tool
     category: code
     url: https://example.com
     environment:
