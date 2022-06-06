@@ -37,7 +37,6 @@ service:
   - name: org-sergio-testing/excellent_service
     path: "/"
     provider: github
-  tools:
   dependencies:
   - alias: special_characters_service
   - alias: service-in-repo-in-org-1
