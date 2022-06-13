@@ -6,7 +6,7 @@ service:
   tier:
   product:
   owner:
-  language:
+  language: coffee
   framework:
   description: "It's from GitHub. Being excellent is unrelated"
   aliases:
